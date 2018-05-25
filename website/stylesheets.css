@@ -1,0 +1,69 @@
+body,html{
+  padding:0;
+  margin:0;
+}
+
+
+.header_with_image_nav{
+  box-shadow: 11px 11px 50px grey;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+
+}
+
+.team_name{
+  display: inline;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 4em;
+  font-weight: bold;
+  margin-left: : 10px;
+}
+.style_s{
+  font-size:1.3em;
+}
+
+.ipl_logo{
+  padding: 7px;
+  float: right;
+  height: 100px;
+  width: 170px;
+  display: inline;
+
+}
+
+.team_details{
+  margin:5px;
+  padding: 5px;
+}
+
+
+.content{
+  margin-top: 105px;
+  padding: 10px;
+  background-image: url('./RON_5362.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  back
+}
+
+.team{
+  background-color: rbga(0,120,150,0.5);
+
+}
+#logos{
+  height:500px
+  width:500px;
+
+}
+.nameofTeams{
+  display: inline-block;
+  padding: 3px;
+  margin: 0;
+  height: 80px;
+  width:300px;
+  background-color: rbga(20,200,150,0.2);
+}
