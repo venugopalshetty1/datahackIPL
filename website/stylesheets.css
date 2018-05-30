@@ -75,7 +75,7 @@ body, html {
 .content_team {
   margin-top: 114px;
   padding: 5px;
-  background-image: url('./teams.jpg');
+  background-image: url('./teams.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -85,6 +85,14 @@ body, html {
   margin-top: 114px;
   padding: 5px;
   background-image: url('./A70I1906.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content_bowling{
+  margin-top: 114px;
+  padding: 5px;
+  background-image: url('./bowling.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -107,11 +115,26 @@ body, html {
   background-color: rbga(20, 200, 150, 0.2);
 }
 
+.graph_heading{
+  font-size:23px;
+  font-weight:bold;
+  font-family: 'Covered By Your Grace', cursive;
+  color:orange;
+}
+
+.graph_content_explanation{
+  font-weight:bold;
+   font-family:'Puritan', sans-serif;
+  color:white;
+}
+
+
 .team_cards {
   display: inline-block;
   height: 200px;
   width: 500px;
   background-color: rbg(211, 211, 211)
+  font-color:orange;
 }
 
 .team_cards_strike_rate {
@@ -119,4 +142,37 @@ body, html {
   height: 400px;
   width: 500px;
   background-color: rbg(211, 211, 211)
+}
+
+
+
+
+table,th,tr,td {
+  border:1px solid white;
+  border-collapse: collapse;
+  color:white;
+}
+
+td,th{
+  padding: 6px;
+}
+
+
+#player_of_match th{
+  background-color: black;
+
+}
+
+#player_of_match tr td{
+  color:black;
+  padding: 10px;
+
+}
+
+#player_of_match tr:nth-child(even){
+  background-color: rgba(128,128,128,0.5);
+}
+
+#player_of_match tr:nth-child(odd){
+  background-color: rgba(255,255,255,0.5);
 }
